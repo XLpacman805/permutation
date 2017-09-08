@@ -5,16 +5,13 @@ namespace permutations
 {
     class Program
     {
-        static bool calcPerm(int steps, int nFactorial, int divisor) {
+        static void calcPerm(int steps, int nFactorial, int divisor) {
             if (steps == 2)
             {
                 Console.WriteLine(nFactorial);
                 Console.WriteLine(divisor);
                 Console.WriteLine(nFactorial / divisor);
-                
-                return true;
             }
-            else return false;
         }  
         static void Main(string[] args)
         {
